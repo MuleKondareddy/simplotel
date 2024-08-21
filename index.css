@@ -1,0 +1,184 @@
+* {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: #ffffff;
+  padding: 0 15px;
+  font-family: "Roboto", sans-serif;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.logo {
+  height: 80px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+li {
+  margin: 0 15px;
+}
+
+.list-item {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+.fab {
+  color: black;
+  margin-right: 30px;
+}
+
+.home-section {
+  background-image: url("https://res.cloudinary.com/dgj7qoujs/image/upload/v1724139044/heroimg_ruh7hn.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 30px;
+  height: 500px;
+  color: white;
+  position: relative;
+}
+
+.card-tag {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.card-heading {
+  font-size: 28px;
+  margin: 0;
+}
+
+.part-two {
+  background-color: #c1c4c4;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.matter {
+  flex: 1;
+  padding: 15px;
+  font-size: 16px;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.part-three {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.sub-portion {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+}
+
+.left {
+  align-items: flex-start;
+}
+
+.center {
+  align-items: center;
+  text-align: center;
+}
+
+.right {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.sub-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-content {
+  margin-top: 10px;
+}
+
+.sub-head {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.sub-para {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #333333;
+}
+
+.rooms-sub-para {
+  padding-right: 15px;
+}
+
+.dining-sub-para {
+  padding: 0 7px;
+}
+
+.pools-sub-para {
+  padding-left: 15px;
+}
+
+@media (max-width: 768px) {
+  .sub-portion {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .part-two {
+    flex-direction: column;
+  }
+}
